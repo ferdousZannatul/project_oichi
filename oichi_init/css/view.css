@@ -1,0 +1,27 @@
+body{
+    background-color:#cfd8dc;
+}
+
+.card-height{
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 325px;
+    max-height: 325px;
+    box-shadow: 3px 3px 5px #607d8b;
+    transition: .2s;
+}
+
+.card-height:hover{
+	box-shadow: 10px 10px 10px #607d8b;
+	transform: scale(1.01);	
+}
+.card-image{
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.card-text{
+	height: 54px;
+	overflow: hidden;
+}

@@ -1,0 +1,15 @@
+.title{
+  trasintion: all .5s;
+}
+.title:hover + .row ~ .block{
+    padding:50px;
+}
+.block{
+  overflow: hidden;
+  height:10px;
+  transition: all .5s;
+}
+.block:hover, .block:focus{
+  height: 200px;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.card-img-overlay{
+    background-color: #dcdcdcb0;
+    top: 50%;
+}
+
+.card-outer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card-img-top{
+    min-height: 477px;
+    max-height: 477px;
+}

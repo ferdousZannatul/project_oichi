@@ -1,0 +1,41 @@
+.card{
+	overflow: hidden;
+	transition: transform 2s;
+}
+.card:hover .card-img-top,
+.card:focus .card-img-top{
+	transform: scale(1.1);
+}
+.card-img-overlay{
+    background-color: #0000006e;
+    color: white;
+    top: 0px;
+}
+.card-outer{
+    padding: 0px;
+    width: 100%;
+}
+.card-img-top{
+    min-height: 400px;
+    max-height: 400px;
+}
+.card-title{
+	border-bottom: 1px solid white;
+	margin: 0px;
+	padding-bottom: 15px;
+}
+
+.bg-transparent{
+	background-color: #000000c7 !important;
+}
+
+
+.read-more{
+	color: white;
+	transition: all .5s;
+}
+.read-more:hover, .read-more:focus{
+	text-decoration: none;
+	color: white;
+	margin-left:20px;
+}
