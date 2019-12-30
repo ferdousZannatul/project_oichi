@@ -24,11 +24,6 @@
 		</div>
 	</div>
 </div>
-<div class="container-fluid bg-light">
-	<div>
-		<small>Developed by: Sayeed Hasan</small>
-	</div>	
-</div>
 </body>
 </html>
 
